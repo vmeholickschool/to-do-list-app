@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-list {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 400px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ff1493;
+  }
+  
+  header p {
+    margin: 5px 0 20px 0;
+    color: #333;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    border: 1px solid #ff69b4;
+    background: #ff1493;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #ff69b4;
+  }
+  
+  .todo-item {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .todo-item .button-container {
+    display: flex;
+  }
+  
+  .todo-item button {
+    border: 1px solid #ff69b4;
+    background: none;
+    color: #ff69b4;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+  }
+  
+  .todo-item button:first-child {
+    margin-left: 0;
+  }
+  
+  .todo-item button:hover {
+    background: #ff69b4;
+    color: white;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .high-priority {
+    color: crimson;
+  }
+  
+  .low-priority {
+    color: darkgoldenrod;
+  }
+  
